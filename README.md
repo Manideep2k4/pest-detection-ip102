@@ -1,5 +1,6 @@
 # pest-detection-ip102
 <img width="1785" height="1477" alt="sample_pests" src="https://github.com/user-attachments/assets/30927686-4db8-42d5-b6ec-b27ffa9970e8" />
+
 # 🌾 Agricultural Pest Detection using YOLOv8
 ### Real-Time Pest Identification for Precision Agriculture in Indian Crop Fields
 
@@ -66,10 +67,10 @@ IP102 is originally a classification dataset. We converted it to YOLO detection 
 
 | Metric | Value |
 |--------|-------|
-| mAP@50 | **[UPDATE AFTER TRAINING]** |
-| mAP@50-95 | **[UPDATE AFTER TRAINING]** |
-| Precision | **[UPDATE AFTER TRAINING]** |
-| Recall | **[UPDATE AFTER TRAINING]** |
+| mAP@50 | **61.6%** |
+| mAP@50-95 | **61.4%** |
+| Precision | **63.7%** |
+| Recall | **56.5%** |
 | Inference Speed | ~15ms/image (T4 GPU) |
 
 ### Training Curve
@@ -79,7 +80,7 @@ IP102 is originally a classification dataset. We converted it to YOLO detection 
 | 10    | 0.400  |
 | 20    | 0.527  |
 | 26    | 0.557  |
-| 50    | TBD    |
+| 50    | **0.616** ✅ |
 
 ---
 
